@@ -1,0 +1,25 @@
+{
+  "name": "testtoken",
+  "version": "0.0.1",
+  "description": "testtoken",
+  "main": "index.js",
+  "scripts": {
+    "build:tokens": "node build-tokens.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simseonbeom/testtoken.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/simseonbeom/testtoken/issues"
+  },
+  "homepage": "https://github.com/simseonbeom/testtoken#readme",
+  "dependencies": {
+    "@tokens-studio/sd-transforms": "2.0.3",
+    "style-dictionary": "5.3.3"
+  }
+}
