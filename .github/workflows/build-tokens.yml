@@ -41,7 +41,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add build/light.css build/dark.css
+          git add -f build/light.css build/dark.css
 
           if git diff --cached --quiet; then
             echo "No changes to commit"
